@@ -8,6 +8,8 @@ Write your code in this editor and press "Run" button to compile and execute it.
 
 #include <stdio.h>
 
+/*Faça um algoritmo que receba um número inteiro, identifique se este e par ou impar.*/
+
 int main(int argc, char *argv[]){
     
     int num;

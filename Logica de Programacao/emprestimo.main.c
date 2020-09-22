@@ -8,6 +8,10 @@ Write your code in this editor and press "Run" button to compile and execute it.
 
 #include <stdio.h>
 
+/*Leia o salario de um trabalhador e o valor da prestação de 
+um empréstimo. Se a prestação for maior que 20% do salario imprima:  
+Empréstimo não concedido, caso contrario imprima:  Empréstimo concedido.*/
+
 int
 main (int argc, char *argv[])
 {
