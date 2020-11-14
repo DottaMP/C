@@ -4,13 +4,10 @@
 int main(int argc, char *argv[]){
     
     int i;
-		
-		for(i=100; i<=200; i++){
-			if(i%2!=0)
-			{
-				printf("%i,", i);
-			}
+	for(i=100; i<=200; i++){
+		if(i%2!=0){
+			printf("%i,", i);
 		}
-	
+	}
     return 0;
 }

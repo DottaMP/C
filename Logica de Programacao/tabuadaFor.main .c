@@ -7,12 +7,9 @@ int main(int argc, char *argv[]){
     
     printf("Informe qual tabuada você deseja calcular: ");
     scanf("%i", &tabuada);
-		
-		for(i=1; i<=10; i++){
-		    
-		    printf("%ix%i = %i\n", i, tabuada, i * tabuada);
-			
-		}
+	for(i=1; i<=10; i++){    
+	    printf("%ix%i = %i\n", i, tabuada, i * tabuada);
+	}
 	
     return 0;
 }
