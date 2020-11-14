@@ -1,4 +1,4 @@
-#include <stdio.h>
+//#include <stdio.h>
 /*Reutilizando o algoritmo do caixa eletrônico, implemente um laço faça enquanto que verifique se o 
 usuário deseja continuar, caso a variável coletada for igual 1 reinicie o laço, mantendo o valor do saldo*/
 

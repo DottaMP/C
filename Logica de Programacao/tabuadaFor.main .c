@@ -1,4 +1,4 @@
-#include <stdio.h>
+//#include <stdio.h>
 /*Faça um algoritmo que dado valor inteiro informado, calcule e exiba a tabuada do número de 1 a 10.*/
 
 int main(int argc, char *argv[]){
