@@ -1,6 +1,3 @@
-/*Nome: Mayara Pereira Dotta
-Matrícula (RA): 2040482023049
-Curso: ADS 204-20202 (Noite)*/
 /*Faça um programa que colete a nota de 20 alunos e armazene 
 em um vetor, calcule a média da sala depois da coleta do vetor, 
 em um novo laço mostre se o aluno está aprovado ou reprovado 
@@ -32,4 +29,3 @@ int main(int argc, char *argv[]){
     }
     return 0;
 }
-
