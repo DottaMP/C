@@ -29,6 +29,6 @@ int main(int argc, char *argv[])
 	media = media/contador;
 	printf("Média: %2.2f ", media);
     
-    return 0;
+    return 0;	
 }
 
