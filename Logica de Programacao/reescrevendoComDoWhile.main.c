@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
         scanf("%d",&b);    
         r = a + b;    
         printf("%d\n", r);
-        i=i+1;
+        i++;
     } while(i<20);
 
     return 0;

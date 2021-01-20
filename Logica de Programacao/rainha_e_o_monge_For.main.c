@@ -24,6 +24,19 @@ int main(int argc, char *argv[]){
 	}
 	printf("O Monge deverá receber como pagamento: %f grãos, %f Kg", somaGraos, somaKgGraos);
 	
+
+    /*int main(int argc, char *argv[]) {
+    float graos=1, ultimaCasa=1 ,kg;
+    int x;
+    
+    for(x=1;x<=64;x++){
+	printf("%i Casa = %f \n", x, ultimaCasa);
+	graos = graos + (ultimaCasa);
+	ultimaCasa = ultimaCasa * 2;
+    }
+    kg = graos / 100000;
+    printf("total de kg: %f", kg);*/
+
     return 0;
 }
 

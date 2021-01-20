@@ -22,6 +22,20 @@ int main(int argc, char *argv[]){
 	}
 	printf("Quantidade de números múltiplos de 2: %i\nQuantidade de números múltiplos de 3: %i", dois, tres);
     
+
+	/*int i, numero, resto2, resto3, cont=0;
+	for(i=0; i<10; i++){
+		printf("informe um numero:");
+		scanf("%i", &numero);
+		resto2 = numero % 2; //modulo e o resto da divisao inteira
+		resto3 = numero % 3;
+		if(resto2==0 &&  resto3==0){
+			cont++;
+			printf("Divisivel por 2 e 3 = %i \n", numero);
+		}
+	}
+	printf("Total de multiplos 2 e 3 = %i", cont);*/
+
     return 0;
 }
 

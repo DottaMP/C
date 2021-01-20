@@ -8,15 +8,24 @@ int main(int argc, char *argv[])
     int num, contador=0;
     float media=0;
 	
-	while(num!=0){
-	    printf("Informe um número inteiro: ");
-	    scanf("%i", &num);
-	    
-	    if(num!=0){
-	        media=media+num;
-	        contador = contador+1;
-	    }
+    while(num!=0){
+	printf("Informe um número inteiro: ");
+	scanf("%i", &num);
+	if(num!=0){
+		media=media+num;
+	        contador = contador+1; 
+	}
     }
+
+    /*do {
+	printf("informe um numero:");
+	scanf("%f", &numero);
+	if(numero != 0 ){
+		media = media + numero;
+		cont++; //cont = cont + 1
+	}	
+    } while(numero!=0);*/
+
 	media = media/contador;
 	printf("Média: %2.2f ", media);
     

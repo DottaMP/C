@@ -28,6 +28,27 @@ int main(int argc, char *argv[])
     }while(numAtual!=numInicio);
     
     printf("\nCorreto! O número certo era: %i\nTotal de Tentativas: %i", numInicio, contador);
+	
+
+    /*int main(int argc, char *argv[]) {
+    int x, y, cont=0;
+    printf("informe o numero a ser sorteado:");
+    scanf("%i", &x);
+    system("cls");    
+    do{
+	printf("chute um numero:");
+	scanf("%i", &y);
+	cont++; // cont = cont + 1
+	if(x!=y){
+		if(x>y){
+			printf("E maior q %i \n", y);
+		} else {
+			printf("E menor q %i \n", y);
+		  }	
+	}
+    } while(x!=y);    
+    printf("Vc precisou de %i tentativas", cont);*/
+	
 
     return 0;
 }
