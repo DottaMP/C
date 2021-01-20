@@ -55,7 +55,6 @@ int main(int argc, char *argv[]){
     media = media / 20;
     printf("Menor=%f, Maior=%f, media=%f", menor, maior, media);*/
 
-
     return 0;
 }
 
