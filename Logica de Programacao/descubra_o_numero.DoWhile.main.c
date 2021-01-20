@@ -49,6 +49,5 @@ int main(int argc, char *argv[])
     } while(x!=y);    
     printf("Vc precisou de %i tentativas", cont);*/
 	
-
     return 0;
 }
