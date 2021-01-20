@@ -44,7 +44,6 @@ int main(int argc, char *argv[]){
 	}
 	printf("A maior sequencia=%i:", maiorSeq);*/    
 
-
     return 0;
 }
 
